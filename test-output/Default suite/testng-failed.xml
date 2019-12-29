@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+	<test name="Default test(failed)">
+		<classes>
+			<class name="com.jbk.qa.testcases.AddUserPageTest">
+				<methods>
+					<include name="Verify_Title" />
+					<include name="getResult" />
+					<include name="AddUser_WithBlank" />
+					<include name="Verify_Userlink" />
+				</methods>
+			</class> <!-- com.jbk.qa.testcases.AddUserPageTest -->
+			<class name="com.jbk.qa.testcases.DashboardLinksPageTest">
+				<methods>
+					<include name="getResult" />
+					<include name="CloseApplication" />
+					<include name="Verify_Logout_Link_LeftNavigation" />
+					<include name="Verify_Download_Link_LeftNavigation" />
+					<include name="Verify_User_link_LeftNavigation" />
+					<include name="setUp" />
+					<include name="Verify_Useful_Link_LeftNavigation" />
+					<include name="setup_Browser" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!-- com.jbk.qa.testcases.DashboardLinksPageTest -->
+			<class name="com.jbk.qa.testcases.LoginPageTest">
+				<methods>
+					<include name="getResult" />
+				</methods>
+			</class> <!-- com.jbk.qa.testcases.LoginPageTest -->
+			<class name="com.jbk.qa.testcases.RegisterMemberPageTest">
+				<methods>
+					<include name="getResult" />
+				</methods>
+			</class> <!-- com.jbk.qa.testcases.RegisterMemberPageTest -->
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
