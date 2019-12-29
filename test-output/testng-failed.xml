@@ -7,29 +7,23 @@
         <methods>
           <include name="verifyDownloadLink"/>
           <include name="verifyUserLink"/>
-          <include name="verifyOperatorslink"/>
+          <include name="getResult"/>
           <include name="verifyUsefulLink"/>
         </methods>
       </class> <!-- com.jbk.qa.testcases.DashboardLinksPageTest -->
-      <class name="com.jbk.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="Login" invocation-numbers="0 1 2"/>
-          <include name="verifyApplicationTitle"/>
-          <include name="verifyTitle"/>
-          <include name="verifyPlaceHolderUsername"/>
-          <include name="verifyUrl"/>
-          <include name="verifyloginsesion"/>
-          <include name="verifyLinks"/>
-          <include name="verifyButtoncolor"/>
-          <include name="verifyPlaceHolderPassword"/>
-        </methods>
-      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
       <class name="com.jbk.qa.base.TestBase">
         <methods>
+          <include name="tearDown"/>
           <include name="setup_Browser"/>
           <include name="setUp"/>
+          <include name="CloseApplication"/>
         </methods>
       </class> <!-- com.jbk.qa.base.TestBase -->
+      <class name="com.jbk.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

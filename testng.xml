@@ -5,7 +5,7 @@
 		<classes>
 			<class name="com.jbk.qa.base.TestBase" />
 			<class name="com.jbk.qa.testcases.LoginPageTest" />
-			<class name="com.jbk.qa.testcases.DashboardLinksPageTest" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
