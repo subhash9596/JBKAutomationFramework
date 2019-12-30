@@ -4,6 +4,7 @@
 	<test name="Test">
 		<classes>
 			<class name="com.jbk.qa.base.TestBase" />
+			<class name="com.jbk.qa.testcases.RegisterMemberPageTest" />
 			<class name="com.jbk.qa.testcases.LoginPageTest" />
 			
 		</classes>
