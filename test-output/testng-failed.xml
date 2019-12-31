@@ -3,14 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.jbk.qa.testcases.DashboardLinksPageTest">
+      <class name="com.jbk.qa.testcases.LoginPageTest">
         <methods>
-          <include name="verifyDownloadLink"/>
-          <include name="verifyUserLink"/>
+          <include name="verifyApplicationTitle"/>
+          <include name="verifyUrl"/>
+          <include name="verifyloginsesion"/>
           <include name="getResult"/>
-          <include name="verifyUsefulLink"/>
         </methods>
-      </class> <!-- com.jbk.qa.testcases.DashboardLinksPageTest -->
+      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
+      <class name="com.jbk.qa.testcases.RegisterMemberPageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="verifyAlreadyMembershipLink"/>
+        </methods>
+      </class> <!-- com.jbk.qa.testcases.RegisterMemberPageTest -->
       <class name="com.jbk.qa.base.TestBase">
         <methods>
           <include name="tearDown"/>
@@ -19,11 +25,6 @@
           <include name="CloseApplication"/>
         </methods>
       </class> <!-- com.jbk.qa.base.TestBase -->
-      <class name="com.jbk.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

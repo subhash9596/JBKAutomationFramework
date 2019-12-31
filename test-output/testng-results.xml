@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="8" total="23" passed="12">
+<testng-results skipped="0" failed="4" ignored="8" total="29" passed="17">
   <reporter-output>
     <line>
       <![CDATA[=====Application Session Started========]]>
@@ -11,284 +11,258 @@
       <![CDATA[===== Browser Session End  ========]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="51832" started-at="2019-12-29T20:58:26Z" finished-at="2019-12-29T20:59:18Z">
+  <suite name="Suite" duration-ms="14179" started-at="2019-12-31T08:05:19Z" finished-at="2019-12-31T08:05:33Z">
     <groups>
+      <group name="Regrression">
+        <method signature="RegisterMemberPageTest.verifyErrorMessageRegistermember()[pri:8, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyErrorMessageRegistermember" class="com.jbk.qa.testcases.RegisterMemberPageTest"/>
+      </group> <!-- Regrression -->
       <group name="Regression">
-        <method signature="LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="Login" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyApplicationTitle" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyButtoncolor" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyLinks" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyPlaceHolderPassword" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyPlaceHolderUsername" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyTitle" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyUrl" class="com.jbk.qa.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyloginsesion" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="Login" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyApplicationTitle" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyButtoncolor" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyLinks" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyPlaceHolderPassword" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyPlaceHolderUsername" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyTitle" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyUrl" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyloginsesion" class="com.jbk.qa.testcases.LoginPageTest"/>
+        <method signature="RegisterMemberPageTest.verifyAlreadyMembershipLink()[pri:10, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyAlreadyMembershipLink" class="com.jbk.qa.testcases.RegisterMemberPageTest"/>
+        <method signature="RegisterMemberPageTest.verifyHeading()[pri:2, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyHeading" class="com.jbk.qa.testcases.RegisterMemberPageTest"/>
+        <method signature="RegisterMemberPageTest.verifyRegisterMemberValidinfo()[pri:9, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyRegisterMemberValidinfo" class="com.jbk.qa.testcases.RegisterMemberPageTest"/>
+        <method signature="RegisterMemberPageTest.verifyRegisterMemberlink()[pri:1, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyRegisterMemberlink" class="com.jbk.qa.testcases.RegisterMemberPageTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Test" duration-ms="51832" started-at="2019-12-29T20:58:26Z" finished-at="2019-12-29T20:59:18Z">
-      <class name="com.jbk.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyUrl" duration-ms="110" started-at="2019-12-30T02:28:26Z" finished-at="2019-12-30T02:28:27Z">
+    <test name="Test" duration-ms="14179" started-at="2019-12-31T08:05:19Z" finished-at="2019-12-31T08:05:33Z">
+      <class name="com.jbk.qa.testcases.RegisterMemberPageTest">
+        <test-method status="PASS" signature="verifyRegisterMemberlink()[pri:1, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyRegisterMemberlink" duration-ms="1256" started-at="2019-12-31T13:35:19Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUrl -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="140" started-at="2019-12-30T02:28:27Z" finished-at="2019-12-30T02:28:27Z">
+        </test-method> <!-- verifyRegisterMemberlink -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="10" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUrl status=SUCCESS method=LoginPageTest.verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterMemberlink status=SUCCESS method=RegisterMemberPageTest.verifyRegisterMemberlink()[pri:1, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyApplicationTitle" duration-ms="15" started-at="2019-12-30T02:28:37Z" finished-at="2019-12-30T02:28:37Z">
+        <test-method status="PASS" signature="verifyHeading()[pri:2, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyHeading" duration-ms="12" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyApplicationTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:28:37Z" finished-at="2019-12-30T02:28:37Z">
+        </test-method> <!-- verifyHeading -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyApplicationTitle status=SUCCESS method=LoginPageTest.verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHeading status=SUCCESS method=RegisterMemberPageTest.verifyHeading()[pri:2, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyTitle" duration-ms="51" started-at="2019-12-30T02:28:47Z" finished-at="2019-12-30T02:28:47Z">
+        <test-method status="PASS" signature="verifyPlaceholderName()[pri:3, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyPlaceholderName" duration-ms="31" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-30T02:28:47Z" finished-at="2019-12-30T02:28:47Z">
+        </test-method> <!-- verifyPlaceholderName -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginPageTest.verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPlaceholderName status=SUCCESS method=RegisterMemberPageTest.verifyPlaceholderName()[pri:3, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyloginsesion" duration-ms="24" started-at="2019-12-30T02:28:57Z" finished-at="2019-12-30T02:28:57Z">
+        <test-method status="PASS" signature="verifyPlaceholderMobile()[pri:4, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyPlaceholderMobile" duration-ms="53" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyloginsesion -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-30T02:28:57Z" finished-at="2019-12-30T02:28:57Z">
+        </test-method> <!-- verifyPlaceholderMobile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyloginsesion status=SUCCESS method=LoginPageTest.verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPlaceholderMobile status=SUCCESS method=RegisterMemberPageTest.verifyPlaceholderMobile()[pri:4, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyPlaceHolderUsername" duration-ms="682" started-at="2019-12-30T02:29:07Z" finished-at="2019-12-30T02:29:08Z">
+        <test-method status="PASS" signature="verifyPlaceholderEmail()[pri:5, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyPlaceholderEmail" duration-ms="26" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPlaceHolderUsername -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-30T02:29:08Z" finished-at="2019-12-30T02:29:08Z">
+        </test-method> <!-- verifyPlaceholderEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPlaceHolderUsername status=SUCCESS method=LoginPageTest.verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPlaceholderEmail status=SUCCESS method=RegisterMemberPageTest.verifyPlaceholderEmail()[pri:5, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyPlaceHolderPassword" duration-ms="64" started-at="2019-12-30T02:29:08Z" finished-at="2019-12-30T02:29:08Z">
+        <test-method status="PASS" signature="verifyPlaceholderPassword()[pri:6, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyPlaceholderPassword" duration-ms="21" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPlaceHolderPassword -->
-        <test-method status="PASS" signature="verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyButtoncolor" duration-ms="680" started-at="2019-12-30T02:29:08Z" finished-at="2019-12-30T02:29:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtoncolor -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:29:08Z" finished-at="2019-12-30T02:29:08Z">
+        </test-method> <!-- verifyPlaceholderPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPlaceHolderPassword status=SUCCESS method=LoginPageTest.verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPlaceholderPassword status=SUCCESS method=RegisterMemberPageTest.verifyPlaceholderPassword()[pri:6, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:29:09Z" finished-at="2019-12-30T02:29:09Z">
+        <test-method status="PASS" signature="verifyRegistermemberBlankinfo()[pri:7, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyRegistermemberBlankinfo" duration-ms="482" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistermemberBlankinfo -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyButtoncolor status=SUCCESS method=LoginPageTest.verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegistermemberBlankinfo status=SUCCESS method=RegisterMemberPageTest.verifyRegistermemberBlankinfo()[pri:7, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="verifyLinks" duration-ms="47" started-at="2019-12-30T02:29:09Z" finished-at="2019-12-30T02:29:09Z">
+        <test-method status="PASS" signature="verifyErrorMessageRegistermember()[pri:8, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyErrorMessageRegistermember" duration-ms="331" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLinks -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:29:09Z" finished-at="2019-12-30T02:29:09Z">
+        </test-method> <!-- verifyErrorMessageRegistermember -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLinks status=SUCCESS method=LoginPageTest.verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyErrorMessageRegistermember status=SUCCESS method=RegisterMemberPageTest.verifyErrorMessageRegistermember()[pri:8, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="Login" duration-ms="4687" started-at="2019-12-30T02:29:09Z" data-provider="login" finished-at="2019-12-30T02:29:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TCJBK01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[BlankInfo]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Please enter email.]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="verifyRegisterMemberValidinfo()[pri:9, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyRegisterMemberValidinfo" duration-ms="382" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:29:13Z" finished-at="2019-12-30T02:29:13Z">
+        </test-method> <!-- verifyRegisterMemberValidinfo -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:22Z" finished-at="2019-12-31T13:35:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterMemberValidinfo status=SUCCESS method=RegisterMemberPageTest.verifyRegisterMemberValidinfo()[pri:9, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="Login" duration-ms="1534" started-at="2019-12-30T02:29:13Z" data-provider="login" finished-at="2019-12-30T02:29:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TCJBK02]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[InvalidInfo]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[345]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Please enter email as kiran@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:29:15Z" finished-at="2019-12-30T02:29:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="Login" duration-ms="3313" started-at="2019-12-30T02:29:15Z" data-provider="login" finished-at="2019-12-30T02:29:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TCJBK03]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ValidInfo]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[kiran@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Dashboard Courses Offered]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-30T02:29:18Z" finished-at="2019-12-30T02:29:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@59f99ea] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
-      <class name="com.jbk.qa.testcases.DashboardLinksPageTest">
-        <test-method status="FAIL" signature="verifyUserLink()[pri:1, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="verifyUserLink" duration-ms="10210" started-at="2019-12-30T02:28:27Z" finished-at="2019-12-30T02:28:37Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="verifyAlreadyMembershipLink()[pri:10, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="verifyAlreadyMembershipLink" duration-ms="10065" started-at="2019-12-31T13:35:23Z" finished-at="2019-12-31T13:35:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [9] but found [5]]]>
+              <![CDATA[Unable to locate element: /html/body/div/div[1]/a/h4
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10736, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 21a06dc7-a256-4759-b807-f0d2b21654a0
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/a/h4}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [9] but found [5]
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/a/h4
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10736, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 21a06dc7-a256-4759-b807-f0d2b21654a0
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/a/h4}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.jbk.qa.testcases.RegisterMemberPageTest.verifyAlreadyMembershipLink(RegisterMemberPageTest.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlreadyMembershipLink -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1]" name="getResult" is-config="true" duration-ms="10" started-at="2019-12-31T13:35:33Z" finished-at="2019-12-31T13:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAlreadyMembershipLink status=FAILURE method=RegisterMemberPageTest.verifyAlreadyMembershipLink()[pri:10, instance:com.jbk.qa.testcases.RegisterMemberPageTest@3ffc5af1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jbk.qa.testcases.RegisterMemberPageTest -->
+      <class name="com.jbk.qa.testcases.LoginPageTest">
+        <test-method status="FAIL" signature="verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyUrl" duration-ms="10" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [file:///E:/Offline%20Website/index.html] but found [file:///E:/Offline%20Website/pages/examples/register.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [file:///E:/Offline%20Website/index.html] but found [file:///E:/Offline%20Website/pages/examples/register.html]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at com.jbk.qa.testcases.DashboardLinksPageTest.verifyUserLink(DashboardLinksPageTest.java:22)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.qa.testcases.LoginPageTest.verifyUrl(LoginPageTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -319,69 +293,32 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserLink -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="getResult" is-config="true" duration-ms="16" started-at="2019-12-30T02:28:37Z" finished-at="2019-12-30T02:28:37Z">
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="8" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserLink status=FAILURE method=DashboardLinksPageTest.verifyUserLink()[pri:1, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUrl status=FAILURE method=LoginPageTest.verifyUrl()[pri:1, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="verifyOperatorslink()[pri:2, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="verifyOperatorslink" duration-ms="10019" started-at="2019-12-30T02:28:37Z" finished-at="2019-12-30T02:28:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOperatorslink -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-30T02:28:47Z" finished-at="2019-12-30T02:28:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyOperatorslink status=SUCCESS method=DashboardLinksPageTest.verifyOperatorslink()[pri:2, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="verifyUsefulLink()[pri:3, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="verifyUsefulLink" duration-ms="10030" started-at="2019-12-30T02:28:47Z" finished-at="2019-12-30T02:28:57Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyApplicationTitle" duration-ms="10" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to locate element: //ul[@class='sidebar-menu']//*[.='     Useful Links']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1776, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
-*** Element info: {Using=xpath, value=//ul[@class='sidebar-menu']//*[.='     Useful Links']}]]>
+              <![CDATA[expected [JavaByKiran | Log in] but found [JavaByKiran | Registration Page]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@class='sidebar-menu']//*[.='     Useful Links']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1776, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
-*** Element info: {Using=xpath, value=//ul[@class='sidebar-menu']//*[.='     Useful Links']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.jbk.qa.testcases.DashboardLinksPageTest.verifyUsefulLink(DashboardLinksPageTest.java:42)
+              <![CDATA[java.lang.AssertionError: expected [JavaByKiran | Log in] but found [JavaByKiran | Registration Page]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.qa.testcases.LoginPageTest.verifyApplicationTitle(LoginPageTest.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -409,57 +346,50 @@ Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUsefulLink -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="getResult" is-config="true" duration-ms="3" started-at="2019-12-30T02:28:57Z" finished-at="2019-12-30T02:28:57Z">
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUsefulLink status=FAILURE method=DashboardLinksPageTest.verifyUsefulLink()[pri:3, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=verifyApplicationTitle status=FAILURE method=LoginPageTest.verifyApplicationTitle()[pri:2, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="verifyDownloadLink()[pri:4, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="verifyDownloadLink" duration-ms="10014" started-at="2019-12-30T02:28:57Z" finished-at="2019-12-30T02:29:07Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyTitle" duration-ms="45" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginPageTest.verifyTitle()[pri:3, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyloginsesion" duration-ms="17" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to locate element: //ul[@class='sidebar-menu']//*[.='Downloads']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1776, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
-*** Element info: {Using=xpath, value=//ul[@class='sidebar-menu']//*[.='Downloads']}]]>
+              <![CDATA[expected [Sign in to start your session] but found [Register a new membership]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //ul[@class='sidebar-menu']//*[.='Downloads']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1776, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
-*** Element info: {Using=xpath, value=//ul[@class='sidebar-menu']//*[.='Downloads']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.jbk.qa.testcases.DashboardLinksPageTest.verifyDownloadLink(DashboardLinksPageTest.java:52)
+              <![CDATA[java.lang.AssertionError: expected [Sign in to start your session] but found [Register a new membership]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.qa.testcases.LoginPageTest.verifyloginsesion(LoginPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -487,28 +417,214 @@ Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDownloadLink -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64]" name="getResult" is-config="true" duration-ms="5" started-at="2019-12-30T02:29:07Z" finished-at="2019-12-30T02:29:07Z">
+        </test-method> <!-- verifyloginsesion -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyDownloadLink status=FAILURE method=DashboardLinksPageTest.verifyDownloadLink()[pri:4, instance:com.jbk.qa.testcases.DashboardLinksPageTest@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=verifyloginsesion status=FAILURE method=LoginPageTest.verifyloginsesion()[pri:4, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- com.jbk.qa.testcases.DashboardLinksPageTest -->
+        <test-method status="PASS" signature="verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyPlaceHolderUsername" duration-ms="24" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceHolderUsername -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPlaceHolderUsername status=SUCCESS method=LoginPageTest.verifyPlaceHolderUsername()[pri:5, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyPlaceHolderPassword" duration-ms="21" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceHolderPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:20Z" finished-at="2019-12-31T13:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPlaceHolderPassword status=SUCCESS method=LoginPageTest.verifyPlaceHolderPassword()[pri:6, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyButtoncolor" duration-ms="168" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtoncolor -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyButtoncolor status=SUCCESS method=LoginPageTest.verifyButtoncolor()[pri:7, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="verifyLinks" duration-ms="68" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:21Z" finished-at="2019-12-31T13:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLinks status=SUCCESS method=LoginPageTest.verifyLinks()[pri:8, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="Login" duration-ms="311" started-at="2019-12-31T13:35:22Z" data-provider="login" finished-at="2019-12-31T13:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCJBK01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BlankInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:22Z" finished-at="2019-12-31T13:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="Login" duration-ms="383" started-at="2019-12-31T13:35:22Z" data-provider="login" finished-at="2019-12-31T13:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCJBK02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-31T13:35:22Z" finished-at="2019-12-31T13:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="Login" duration-ms="307" started-at="2019-12-31T13:35:22Z" data-provider="login" finished-at="2019-12-31T13:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCJBK03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dashboard Courses Offered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-31T13:35:23Z" finished-at="2019-12-31T13:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginPageTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.jbk.qa.testcases.LoginPageTest@5e5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jbk.qa.testcases.LoginPageTest -->
       <class name="com.jbk.qa.base.TestBase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.base.TestBase@ae45eb6]" name="setUp" is-config="true" duration-ms="1010" started-at="2019-12-30T02:28:00Z" finished-at="2019-12-30T02:28:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.base.TestBase@29774679]" name="setUp" is-config="true" duration-ms="232" started-at="2019-12-31T13:35:12Z" finished-at="2019-12-31T13:35:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.jbk.qa.base.TestBase@ae45eb6]" name="setup_Browser" is-config="true" duration-ms="25851" started-at="2019-12-30T02:28:01Z" finished-at="2019-12-30T02:28:26Z">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.jbk.qa.base.TestBase@29774679]" name="setup_Browser" is-config="true" duration-ms="6906" started-at="2019-12-31T13:35:12Z" finished-at="2019-12-31T13:35:19Z">
           <reporter-output>
             <line>
               <![CDATA[=====Application Session Started========]]>
@@ -518,14 +634,14 @@ Session ID: 432a13bd-b0a7-481b-b64e-634bf7982b68
             </line>
           </reporter-output>
         </test-method> <!-- setup_Browser -->
-        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.jbk.qa.base.TestBase@ae45eb6]" name="CloseApplication" is-config="true" duration-ms="5901" started-at="2019-12-30T02:29:19Z" finished-at="2019-12-30T02:29:25Z">
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.jbk.qa.base.TestBase@29774679]" name="CloseApplication" is-config="true" duration-ms="1901" started-at="2019-12-31T13:35:33Z" finished-at="2019-12-31T13:35:35Z">
           <reporter-output>
             <line>
               <![CDATA[===== Browser Session End  ========]]>
             </line>
           </reporter-output>
         </test-method> <!-- CloseApplication -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.base.TestBase@ae45eb6]" name="tearDown" is-config="true" duration-ms="1178" started-at="2019-12-30T02:29:25Z" finished-at="2019-12-30T02:29:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.base.TestBase@29774679]" name="tearDown" is-config="true" duration-ms="540" started-at="2019-12-31T13:35:35Z" finished-at="2019-12-31T13:35:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

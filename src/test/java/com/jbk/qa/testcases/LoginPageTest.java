@@ -25,10 +25,12 @@ public class LoginPageTest extends TestBase {
 		logger=extend.createTest("verifyUrl", "This test case validate to check URL of offlien application");
 		Assert.assertEquals(my_url, expected_url);
 		System.out.println("---------------------------------");
-		
+	
 	}
 	@Test(priority=2,groups="Regression")
 	public void verifyApplicationTitle(){
+		
+
 		//Actual Result 
 		System.out.println("This is login test case Class >>02");
 		String my_title=driver.getTitle();
@@ -116,10 +118,8 @@ public class LoginPageTest extends TestBase {
 		System.out.println("Test Case ID >>"+tcDescription);
         driver.findElement(By.xpath("//*[@id='email']")).clear();
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys(Username);
-		Thread.sleep(500);
 		driver.findElement(By.xpath("//input[@id='password']")).clear();
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(Password);
-		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='form']/div[3]/div/button")).click();
 
 		if(tcDescription.equals("Withblankdinfo")){

@@ -115,35 +115,26 @@ public class RegisterMemberPageTest extends TestBase {
 	public void verifyRegisterMemberValidinfo() throws InterruptedException{
 		WebElement setName = driver.findElement(By.xpath("//*[@id='name']"));
 		setName.sendKeys("subhash");
-		Thread.sleep(2000);
 		WebElement actMoble = driver.findElement(By.xpath("//*[@id='mobile']"));
 		actMoble.sendKeys("87678888");
-		Thread.sleep(2000);
 		WebElement actEmail = driver.findElement(By.xpath("//*[@id='email']"));
 		actEmail.sendKeys("singale@gmail.com");
-		Thread.sleep(2000);
 		WebElement actPwd = driver.findElement(By.xpath("//*[@id='password']"));
-		Thread.sleep(2000);
 		actPwd.sendKeys("123456");
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='form']/div[5]/div/button")).click();
-		Thread.sleep(2000);
 		Alert alt = driver.switchTo().alert();
 		String actResult  = alt.getText();
 		String expResult  = "User registered successfully.";
 		logger = extend.createTest("verifyRegisterMemberValidinfo", "This test case validate to check Register Member functionality with Validinfo");
 		Assert.assertEquals(actResult, expResult);
-		Thread.sleep(1000);
 		driver.switchTo().alert().accept();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		
+		driver.findElement(By.xpath("/html/body/div/div[2]/a")).click();
+
 	}
 	@Test(priority=10,groups="Regression")
 	public void verifyAlreadyMembershipLink() throws Exception{
 		System.out.println("verifyAlreadyMembershipLink===>>out");
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("/html/body/div/div[2]/a")).click();
-		Thread.sleep(1000);
+		//driver.findElement(By.xpath("/html/body/div/div[2]/a")).click();
 	    String actText=	driver.findElement(By.xpath("/html/body/div/div[1]/a/h4")).getText();
 	    String expText = "JAVA | SELENIUM | PYTHON";
 	    logger = extend.createTest("verifyAlreadyMembershipLink", "This test case validate to check Already Membership Link");
